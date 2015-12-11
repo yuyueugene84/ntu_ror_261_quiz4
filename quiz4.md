@@ -4,14 +4,14 @@
 
 3. 若今天我有以下 model 檔：
 
-```ruby
-class User < ActiveRecord::Base
-  has_many :groups_users
-  has_many :groups, through: :groups_users 
-end
-```
+  ```ruby
+  class User < ActiveRecord::Base
+    has_many :groups_users
+    has_many :groups, through: :groups_users 
+  end
+  ```
 
-請寫出和這個 model 檔相關連的 model 檔，以及這些 model 檔所需要的資料庫欄位
+  請寫出和這個 model 檔相關連的 model 檔，以及這些 model 檔所需要的資料庫欄位
 
 4. 延續第3題，如果需要讓一個叫 "Bob" 的使用者產生一個名字叫做 "Rails is Fun" 的社團，應該如何在 rails console 裡實作出來？
 
