@@ -52,7 +52,7 @@
 	has_many :users, through: :groups_users
   end
 
-  class Groups_User < ActiveRecord::Base
+  class GroupsUser < ActiveRecord::Base
 	belongs_to :group
 	belongs_to :user
   end
