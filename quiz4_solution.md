@@ -46,7 +46,7 @@
 
   **Answer:** 
 
-  ```
+  ```ruby
   class Group < ActiveRecord::Base
 	has_many :groups_users
 	has_many :users, through: :groups_users
@@ -127,5 +127,4 @@
 8. 請說明在 .erb 檔案裡 ```<%= %>``` 與 ```<% %>``` 這兩種 tag 的差別
 
   **Answer:** 
-  ```<%= %>``` 會顯示裡面被執行的 ruby 程式碼的結果，適用於顯示資訊 ex. ```<%= post.title %>```、```<%= user.name %>```
-  ```<% %>``` 則不會顯示裡面被執行的 ruby 程式碼的結果，適用於判斷式或迴圈關鍵字 ex. ```<% arr.each do |x| %>、```<% if else end %>```
+  ```<%= %>``` 會顯示裡面被執行的 ruby 程式碼的結果，適用於顯示資訊 ex. ```<%= post.title %>```、```<%= user.name %>```，而```<% %>``` 則不會顯示裡面被執行的 ruby 程式碼的結果，適用於判斷式或迴圈關鍵字 ex. ```<% arr.each do |x| %>```、```<% if else end %>```
