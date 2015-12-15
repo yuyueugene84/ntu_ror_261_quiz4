@@ -1,4 +1,5 @@
 1. 請說明 ```rails g scaffold xxx``` 功能的壞處為何？
+  
   **Answer:**
   a. 很難透過自動化產出完全符合需求的程式碼，尤其當的 model 很複雜時
   b. 會產生不必要的檔案或資料夾，像是 .coffee 檔和 spec 資料夾
