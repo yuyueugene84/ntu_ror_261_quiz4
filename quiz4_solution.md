@@ -70,7 +70,7 @@
   或是
   ```ruby
   bob = User.create(name: "Bob")
-  group = Group.create(name: "Rails is Fun")
+  group = Group.create(title: "Rails is Fun")
   group.users << bob
   ```
 
@@ -110,7 +110,7 @@
   **step2:** 
   在 terminal 執行：
   ```
-  $bundle install
+  bundle install
   ```
   **step3:**  
   /app/assets/javescripts/application.js  
